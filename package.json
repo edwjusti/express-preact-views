@@ -1,0 +1,48 @@
+{
+  "name": "express-preact-views",
+	  "version": "1.0.2",
+  "description": "This is an Express view engine which renders preact components on server.",
+  "keywords": [
+    "express",
+    "view engine",
+    "preact"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext=js,jsx .",
+    "test": "node test"
+  },
+  "authors": [
+    "Eduardo Justi <edwjusti@gmail.com>",
+    "Paul O’Shannessy <paul@oshannessy.com>",
+    "React Authors (https://facebook.github.io/react)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwjusti/express-preact-views.git"
+  },
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "preact": "^8.2.9"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-preact": "^1.1.0",
+    "babel-register": "^6.26.0",
+    "js-beautify": "^1.7.3",
+    "preact-render-to-string": "^3.7.0",
+    "lodash.escaperegexp": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-preset-preact": "^1.1.0",
+    "eslint": "^4.17.0",
+    "preact": "^8.2.9",
+    "preact-render-to-string": "^3.7.0"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ]
+}
