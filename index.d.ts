@@ -1,7 +1,11 @@
-declare type EngineOptions = {
-    transformViews: boolean;
-    doctype: string;
-    beautify: boolean;
-    babel: any;
+declare module "express-preact-views" {
+
+    type EngineOptions = {
+        transformViews: boolean;
+        doctype: string;
+        beautify: boolean;
+        babel: any;
+    };
+
+    export function createEngine(options?: EngineOptions);
 }
-declare function createEngine(options?: EngineOptions)
